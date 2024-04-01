@@ -1,0 +1,21 @@
+p{
+    width: 500px;/*largura*/
+    height: 100px;/*altura*/
+}
+
+#caixa1{
+    color:aquamarine ;
+}
+
+#caixa2{
+    color: blueviolet;
+}
+
+.borda{
+    border: 2px solid #000;
+}
+
+.sombra{
+    box-shadow: 10px 10px 5px rgb(254, 0, 0);
+}
+

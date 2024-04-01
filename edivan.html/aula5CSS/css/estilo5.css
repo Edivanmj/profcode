@@ -1,0 +1,26 @@
+body{
+    background-color: #b900004a;
+}
+
+article{
+    background-color: rgb(0, 208, 255);
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+
+h2{
+    margin: 0px;
+}
+
+article, h2{
+    font-size: 18pt;
+}
+
+div article h2{
+    color: rgb(251, 140, 4);
+}
+
+article h2{
+    color: blueviolet;
+}

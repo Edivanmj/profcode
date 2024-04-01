@@ -1,0 +1,25 @@
+body{
+    background-color: #ccc;
+    font-size: 18pt;
+    font-family: Verdana;
+    margin: 0;
+}
+
+article{
+    background-color:rgb(255, 203, 165) ;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid #000;
+    border-radius: 120px 0 50px 0;
+    box-shadow: 10px 10px 100px 5px #00f; /* fundo de sombra (borda)*/
+
+}
+p{
+    text-align: justify;
+    padding: 8px;
+}
+h2{
+    margin: 0;
+}

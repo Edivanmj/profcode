@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action=""method="get">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label>Nome:</label>
+        <input type="text" name="textnome" maxlength="80"
+        autofocus required placeholder="Digite seu nome">
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email"name="txtemail" required
+        id="email">
+        <br>
+
+        <label>Senha:</label>
+        <input type="password" name="txtsenha" required>
+        <br>
+
+        <label>Estado civil</label><br>
+        <input type="radio" name="estc" value="s">Solteiro(a)<br>
+        <input type="radio"  name="estc" value="c">Casado(a) <br>
+        <input type="radio"  name="estc" value="v">Viuvo(a) <br>
+        
+        <label>Filmes</label><br>
+        <input type="checkbox" name="filmes" value="terror">Terror <br>
+        <input type="checkbox" name="filmes" value="comédia">Comédia <br>
+        <input type="checkbox" name="filmes" value="ação">Ação <br>
+
+        <label>Escolha a ling preferida</label> <br>
+        <select name="ling">
+            <option value="">Selecione uma opc</option>
+            <option value="python">python</option>
+            <option value="java">Java</option>
+            <option value="c-sharp">C#</option>
+
+        </select>
+        <br>
+
+        <label>Menssagem:</label> <br>
+        <textarea rows="5" cols="40" name="msg"></textarea>
+        <br>
+        <button>Enviar</button>
+        
+
+        </fieldset>
+</form>
+
+</body>
+</html>

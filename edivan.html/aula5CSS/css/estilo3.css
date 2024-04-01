@@ -1,0 +1,14 @@
+/*css externo */
+p{
+    color: #f00;
+    font-weight: bold;
+}
+body{
+    background: color #ccc;
+}
+
+p{
+    font-size: 30pt;
+    content: blue;
+    color: green;
+}
